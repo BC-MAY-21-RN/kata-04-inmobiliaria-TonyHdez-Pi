@@ -1,24 +1,5 @@
 import { StyleSheet } from "react-native";
-import { 
-  Poppins_100Thin,
-  Poppins_100Thin_Italic,
-  Poppins_200ExtraLight,
-  Poppins_200ExtraLight_Italic,
-  Poppins_300Light,
-  Poppins_300Light_Italic,
-  Poppins_400Regular,
-  Poppins_400Regular_Italic,
-  Poppins_500Medium,
-  Poppins_500Medium_Italic,
-  Poppins_600SemiBold,
-  Poppins_600SemiBold_Italic,
-  Poppins_700Bold,
-  Poppins_700Bold_Italic,
-  Poppins_800ExtraBold,
-  Poppins_800ExtraBold_Italic,
-  Poppins_900Black,
-  Poppins_900Black_Italic 
-} from '@expo-google-fonts/poppins'
+
 export const globalStyles = StyleSheet.create({
   mainContainer: {
     height: "100%",
@@ -26,8 +7,7 @@ export const globalStyles = StyleSheet.create({
     backgroundColor: "#e5e5e5",
     justifyContent: "center",
     alignItems: "center",
-    fontFamily: Poppins_400Regular
-  },
+ },
   cardContainer: {
     width: "90%",
     height: "20%",
@@ -39,7 +19,7 @@ export const globalStyles = StyleSheet.create({
   },
   imageContainer: {
     width: "80%",
-    borderRadius: 10,
+    borderRadius: 20,
     height: "70%",
   },
   image: {
@@ -49,6 +29,7 @@ export const globalStyles = StyleSheet.create({
     resizeMode: "cover",
     justifyContent: "flex-end",
     alignItems: "center",
+    borderRadius: 20
   },
   rating: {
     borderRadius: 50,
@@ -59,6 +40,9 @@ export const globalStyles = StyleSheet.create({
     backgroundColor: "#fbedb7",
     justifyContent: "space-evenly",
     alignItems: "center",
+    position: 'absolute',
+    marginTop: 85,
+    marginLeft: 35
   },
   ratingInnerText: {
     color: "#7a6229",
@@ -83,7 +67,7 @@ export const globalStyles = StyleSheet.create({
   },
   innerTextTittle:{
     fontSize: 20,
-    fontWeight: '400'
+    // fontWeight: '400',
   },
   innerTextAddress:{
 
@@ -101,5 +85,5 @@ export const globalStyles = StyleSheet.create({
   priceTag: {
     fontSize: 18,
     fontWeight: "800",
-  },
+  }
 });
