@@ -1,9 +1,11 @@
-import { View, Text, ImageBackground, ScrollView } from "react-native";
+import { View, Text, ImageBackground } from "react-native";
 import React from "react";
+import { data } from "../data/data";
 import { globalStyles } from "../styles/globalStyles";
 import { FontAwesome } from "@expo/vector-icons";
 export const Card = () => {
   return (
+    // Tipo de letra poppins
     <View style={globalStyles.mainContainer}>
       <View style={globalStyles.cardContainer}>
         <View style={globalStyles.leftCard}>
@@ -23,11 +25,14 @@ export const Card = () => {
           </View>
         </View>
 
-        <View style={globalStyles.rightCard}>
-          <View style={globalStyles.textContainer}>
-            <Text>The willows</Text>
-            <Text>Address</Text>
-            <View style={globalStyles.innerTextIcons}>
+        <View style={ globalStyles.rightCard } >
+
+          <View style={ globalStyles.textContainer } >
+
+            <Text style={ globalStyles.innerTextTittle } >The willows</Text>
+            <Text style={ globalStyles.innerTextAddress } >Address</Text>
+
+            <View style={ globalStyles.innerTextIcons } >
               
               <Text><FontAwesome name="bed" size={15} color="black" /> 4</Text>
               <Text><FontAwesome name="bathtub" size={15} color="black" /> 3</Text>
