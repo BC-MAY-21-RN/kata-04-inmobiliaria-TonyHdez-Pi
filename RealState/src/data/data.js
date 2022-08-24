@@ -71,7 +71,7 @@ export const data =[
     },
     {
       "id": 8,
-    "image": "",
+    "image": "https://assets.easybroker.com/property_images/642211/9833033/EB-BL2211.JPG?version=1517596768",
     "propertyName": "Entreparotas House",
     "address": "Residecial las parotas. Colima, colima. Mexico",
     "bedrooms": 3,

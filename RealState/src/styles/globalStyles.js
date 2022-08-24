@@ -5,17 +5,20 @@ export const globalStyles = StyleSheet.create({
     height: "100%",
     width: "100%",
     backgroundColor: "#e5e5e5",
-    justifyContent: "center",
+    // justifyContent: "center",
     alignItems: "center",
+    borderWidth: 10,
+    borderColor: 'red'
  },
   cardContainer: {
+    flex: 1,
     width: "90%",
     height: "20%",
     borderRadius: 15,
     flexDirection: "row",
     backgroundColor: "white",
     shadowColor: "#171717",
-    elevation: 20,
+    elevation: 20
   },
   imageContainer: {
     width: "80%",
@@ -67,7 +70,7 @@ export const globalStyles = StyleSheet.create({
   },
   innerTextTittle:{
     fontSize: 20,
-    // fontWeight: '400',
+    
   },
   innerTextAddress:{
 
