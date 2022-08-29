@@ -2,36 +2,29 @@ import { StyleSheet } from "react-native";
 
 export const globalStyles = StyleSheet.create({
   mainContainer: {
-    height: "100%",
-    width: "100%",
+    height: "80%",
+    width: "90%",
     backgroundColor: "#e5e5e5",
-    // justifyContent: "center",
-    alignItems: "center",
-    borderWidth: 10,
-    borderColor: 'red'
  },
   cardContainer: {
     flex: 1,
     width: "90%",
-    height: "20%",
+    height: 120,
     borderRadius: 15,
     flexDirection: "row",
     backgroundColor: "white",
     shadowColor: "#171717",
-    elevation: 20
+    elevation: 20,
+    marginTop: 20,
+    marginBottom: 20
   },
   imageContainer: {
     width: "80%",
     borderRadius: 20,
-    height: "70%",
+    height: "80%",
   },
   image: {
-    width: null,
-    height: null,
     flex: 1,
-    resizeMode: "cover",
-    justifyContent: "flex-end",
-    alignItems: "center",
     borderRadius: 20
   },
   rating: {
@@ -39,12 +32,11 @@ export const globalStyles = StyleSheet.create({
     width: "40%",
     height: "20%",
     flexDirection: "row",
-    marginBottom: 8,
     backgroundColor: "#fbedb7",
     justifyContent: "space-evenly",
     alignItems: "center",
     position: 'absolute',
-    marginTop: 85,
+    marginTop: 70,
     marginLeft: 35
   },
   ratingInnerText: {
@@ -60,8 +52,7 @@ export const globalStyles = StyleSheet.create({
   },
   rightCard: {
     width: "60%",
-    justifyContent: "center",
-    alignItems: "flex-start",
+    justifyContent: "space-evenly",
   },
   textContainer: {
     padding: 8,
@@ -70,10 +61,6 @@ export const globalStyles = StyleSheet.create({
   },
   innerTextTittle:{
     fontSize: 20,
-    
-  },
-  innerTextAddress:{
-
   },
   innerTextIcons: {
     width: "90%",
@@ -87,6 +74,6 @@ export const globalStyles = StyleSheet.create({
   },
   priceTag: {
     fontSize: 18,
-    fontWeight: "800",
+    fontWeight: "500",
   }
 });

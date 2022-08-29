@@ -81,7 +81,7 @@ export const data =[
     },
     {
       "id": 9,
-    "image": "https://static-mx.lamudi.com/static/media/bm9uZS9ub25l/2x2x5x880x450/99c6e894c89d54.webp",
+    "image": "https://archello.s3.eu-central-1.amazonaws.com/images/2019/04/10/modern-house-in-moscow-1.1554930809.2534.jpg",
     "propertyName": "Pearl house",
     "address": " Residencial Primaveras Colima ",
     "bedrooms": 3,

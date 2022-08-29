@@ -31,15 +31,15 @@ export default function CardList({ image, propertyName, address, bedrooms,  bath
 
          <View style={ globalStyles.innerTextIcons } >
           
-           <Text><FontAwesome name="bed" size={15} color="black" /> {bedrooms}</Text>
-           <Text><FontAwesome name="bathtub" size={15} color="black" /> {bathrooms}</Text>
-          <Text><FontAwesome name="home" size={15} color="black" /> `${squareFeet}ft`</Text>
+           <Text><FontAwesome name="bed" size={15} color="black" /> {bedrooms} </Text>
+           <Text><FontAwesome name="bathtub" size={15} color="black" /> {bathrooms} </Text>
+          <Text><FontAwesome name="home" size={15} color="black" /> {squareFeet} ft</Text>
 
          </View>
 
          <View style={globalStyles.favoritesIconContainer}>
-         <Text style={globalStyles.priceTag}>`${price}/m`</Text>
-         <FontAwesome name="heart" size={15} color="black" />
+         <Text style={globalStyles.priceTag}>${price}/m</Text>
+         <FontAwesome name="heart" size={12} color="black" />
          </View>
       </View>
     </View>
