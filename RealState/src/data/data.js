@@ -7,7 +7,8 @@ export const data =[
     "bedrooms": 3,
     "bathrooms": 3,
     "squareFeet": 350,
-    "price": 1000
+    "price": 1000,
+    "rating": 4.2
     },
     {
       "id": 2,
@@ -17,7 +18,8 @@ export const data =[
     "bedrooms": 4,
     "bathrooms": 2,
     "squareFeet": 450,
-    "price": 850
+    "price": 850,
+    "rating": 4.5
     },
     {
       "id": 3,
@@ -27,7 +29,8 @@ export const data =[
     "bedrooms": 3,
     "bathrooms": 3,
     "squareFeet": 200,
-    "price": 1500
+    "price": 1500,
+    "rating": 4.8
     },
     {
       "id": 4,
@@ -37,7 +40,8 @@ export const data =[
     "bedrooms": 2,
     "bathrooms": 1,
     "squareFeet": 100,
-    "price": 100
+    "price": 100,
+    "rating": 4.9
     },
     {
       "id": 5,
@@ -47,7 +51,8 @@ export const data =[
     "bedrooms": 3,
     "bathrooms": 2,
     "squareFeet": 500,
-    "price": 900
+    "price": 900,
+    "rating": 4.1
     },
     {
       "id": 6,
@@ -57,7 +62,8 @@ export const data =[
     "bedrooms": 3,
     "bathrooms": 2,
     "squareFeet": 360,
-    "price": 450
+    "price": 450,
+    "rating": 3.8
     },
     {
       "id": 7,
@@ -67,7 +73,8 @@ export const data =[
     "bedrooms": 4,
     "bathrooms": 3,
     "squareFeet": 400,
-    "price": 650
+    "price": 650,
+    "rating": 4.6
     },
     {
       "id": 8,
@@ -77,7 +84,8 @@ export const data =[
     "bedrooms": 3,
     "bathrooms": 3,
     "squareFeet": 350,
-    "price": 1000
+    "price": 1000,
+    "rating": 4.7
     },
     {
       "id": 9,
@@ -87,7 +95,8 @@ export const data =[
     "bedrooms": 3,
     "bathrooms": 2,
     "squareFeet": 550,
-    "price": 780
+    "price": 780,
+    "rating": 3.5
     },
     {
       "id": 10,
@@ -97,7 +106,8 @@ export const data =[
     "bedrooms": 3,
     "bathrooms": 3,
     "squareFeet": 450,
-    "price": 1200
+    "price": 1200,
+    "rating": 5
     },
     {
       "id": 11,
@@ -107,7 +117,8 @@ export const data =[
     "bedrooms": 8,
     "bathrooms": 8,
     "squareFeet": 546,
-    "price": 12000
+    "price": 12000,
+    "rating": 4.5
     },
     {
       "id": 12,
@@ -117,7 +128,8 @@ export const data =[
     "bedrooms": 1,
     "bathrooms": 1,
     "squareFeet": 864,
-    "price": 3756
+    "price": 3756,
+    "rating": 4.2
     }
   ]
     
